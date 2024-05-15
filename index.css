@@ -4,8 +4,8 @@ body {
   width: 100%;
   height: 100vh;
   margin: 0;
-  background-color: #cccccc;
-  color: #000000;
+  background-color: #ccc;
+  color: #000;
   font-family: poppins, sans-serif;
   font-size: 15px;
 }
@@ -14,7 +14,8 @@ h1,
 p {
   margin: 1em auto;
   text-align: center;
-} 
+}
+
 
 form {
   width: 60vw;
@@ -25,7 +26,7 @@ form {
   padding-left: 2em;
   padding-right:3em;
   background-color: #bf9dba;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   border-radius: 80px;
 } 
 
@@ -54,8 +55,8 @@ select {
 
 input,
 textarea {
-  background-color: #cccccc;
-  border: 1px solid #cccccc;
+  background-color: #ccc;
+  border: 1px solid #ccc;
   color: #080707;
   border-radius: 7px;
 }
@@ -66,7 +67,7 @@ input[type="submit"] {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #cccccc;
+  background-color: #ccc;
   border-color: white;
   min-width: 300px;
 }
