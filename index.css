@@ -16,7 +16,6 @@ p {
   text-align: center;
 }
 
-
 form {
   width: 60vw;
   max-width: 500px;
@@ -25,7 +24,7 @@ form {
   padding-bottom: 1em;
   padding-left: 2em;
   padding-right:3em;
-  background-color: #bf9dba;
+  background-color:#bf9dba;
   border: 2px solid #000;
   border-radius: 80px;
 } 
