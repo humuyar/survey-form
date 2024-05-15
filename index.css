@@ -23,11 +23,12 @@ form {
   margin: 0 auto;
   padding-bottom: 1em;
   padding-left: 2em;
-  padding-right:3em;
-  background-color:#bf9dba;
+  padding-right: 3em;
+  background-color: #bf9dba;
   border: 2px solid #000;
   border-radius: 80px;
 } 
+
 
 fieldset {
   border: none;
