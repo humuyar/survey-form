@@ -9,7 +9,7 @@
     <h1>survey form</h1>
     <p>Please fill out this form with the required information</p>
 
-    <form action="example.html" method="post">
+    <form action="###.html" method="post">
     <!--first fieldset -->
     <fieldset>
         <label for="first-name">Enter Your First Name: <input type="text" id="first-name" name="first-name" required></label>
@@ -51,9 +51,12 @@
         </label>
     </fieldset>
 
-    <label>  <input type="checkbox"> I accept the terms and conditions</label>
+    <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions"> I accept the 
+        <a href="###">terms and conditions</a>
+    </label>
   
-    <input type="submit" >
+    <input type="submit" value="Submit" >
 
     </form>
 </body>
