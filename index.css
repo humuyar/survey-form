@@ -80,17 +80,3 @@ input[type="file"] {
   margin: 0 0.5em 0 0;
   vertical-align: middle;
 }
-
-p {
-  background-color: #bf9dba;
-  margin-left: 500px;
-  margin-right: 500px;
-  border-radius: 40px;
-}
-
-h1 {
-  background-color: #bf9dba;
-  margin-left: 650px;
-  margin-right: 650px;
-  border-radius: 30px;
-}
