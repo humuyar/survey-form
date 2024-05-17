@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>survey form</title>
 </head>
 <body>
-    <h1>
-        survey form
-    </h1>
+    <h1 id="title">survey form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+
+    <form action="###.html" method="post" id="survey-form">
+    <!--first fieldset -->
+    <fieldset>
+        <label for="first-name" id="name-label">Enter Your First Name: <input type="text" id="name" name="first-name" placeholder="Humaira" required></label>
+    
+        <label for="last-name">Enter Your Last Name: <input type="text" id="last-name" name="last-name" required></label>
+        
+        <label for="email" id="email-label">Enter Your Email: <input type="email" id="email" name="email" placeholder="humiq6071@gmail.com" required></label>
+        
+        <label for="new-password">Create a New Password: <input type="password" id="new-password" name="new-password" pattern="[a-z0-5]{8,}" required></label>
+    </fieldset>
+ 
+    <!--second fieldset-->
+    <fieldset>
+        <legend>Account type (required)</legend>
+        
+        <label for="personal-account">Personal <input type="radio" id="personal-account" name="account-type" class="inline" value="personal" checked></label>
+    
+        <label for="business-account">Business <input type="radio" id="business-account" name="account-type" class="inline" value="Business"></label>
+    </fieldset>
+    
+    <!--third fieldset-->
+    <fieldset>
+        <label for="profile-picture">Upload a profile picture: <input type="file" id="profile-picture"  name="file"></label>
+    
+        <label for="age" id="number-label">Input your age (years):<input type="number" id="number" name="age" min="13" max="120" placeholder="23"></label>
+        
+        <label for="referrer">How did you hear about us?
+            <select id="dropdown" name="referrer">
+                <option value="">(select one)</option>
+                <option value="1">News</option>
+                <option value="2">You Tube Channel</option>
+                <option value="3">Site</option>
+                <option value="4">Other</option>
+            </select>
+        </label>
+
+        <label for="bio">Provide a bio: 
+            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like coding anytime..."></textarea>
+        </label>
+    </fieldset>
+
+    <label for="terms-and-conditions">
+        <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" value="I accept the term and conditon"> I accept the 
+        <a href="###">terms and conditions</a>
+    </label>
+    <label><input type="checkbox" class="inline" required name="like" value="you like our form">are you like our form</label>
+  
+    <input type="submit" value="Submit" id="submit">
+
+    <h2>Humaira Qabooli</h2>
+
+    </form>
 </body>
 </html>
